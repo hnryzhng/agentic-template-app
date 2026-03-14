@@ -4,7 +4,7 @@
 
 a) Planner -> Implementer -> Tester -> Reviewer -> Documenter
 
-b) Assigner -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Pusher
+b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submitter
 
 - Assigner (get requirements from task such as JIRA or Notion)
 - Pusher (push as feature commit or PR to code repo such as GitHub or BitBucket)
