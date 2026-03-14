@@ -10,7 +10,8 @@ b) Assigner -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Pus
 - Pusher (push as feature commit or PR to code repo such as GitHub or BitBucket)
 
 ## Workflow
-1. Generate .github/copilot-instructions.md file for the repo
-2. Create agents folder: .github/agents/
+1. Generate instruction file for the repo: ```.github/copilot-instructions.md ```
+2. Create agents folder: ```.github/agents/```
 3. Define agents and subagents
+4. Define optional files such as skills, etc.
 
