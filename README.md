@@ -7,13 +7,13 @@ a) Planner -> Implementer -> Tester -> Reviewer -> Documenter
 b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submitter
 
 ## Agents
-- Intake (get requirements from task such as JIRA or Notion)
+- Intake: get requirements from task such as JIRA or Notion
 - Planner
 - Implementer
 - Tester
 - Reviewer
 - Documenter
-- Submitter (push as feature commit or PR to code repo such as GitHub or BitBucket)
+- Submitter: push as feature commit or PR to code repo such as GitHub or BitBucket
 - Security
 - Debugger
 - Analyst 
