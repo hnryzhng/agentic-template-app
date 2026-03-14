@@ -25,7 +25,7 @@ https://code.visualstudio.com/docs/copilot/customization/mcp-servers
 - 1a. Auto: Search for extension in VS Code's Extensions: ```@mcp PLUGINNAME```
 - 1b. Manual: Configure the settings for an integration's MCP docs (e.g., Notion MCP server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file)
 
-2. Go through the integration steps within the integration provider's platform (e.g., Notion -> Internal Integrations)
+2. Go through the integration steps within the integration provider's platform (e.g., Notion -> Internal Integrations via notion.so/profile/integrations)
 
 ### Integration Resources
 - Notion MCP Server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file
