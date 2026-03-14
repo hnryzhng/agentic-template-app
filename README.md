@@ -21,16 +21,17 @@ Adding integrations with agents via MCP servers
 https://code.visualstudio.com/docs/copilot/customization/mcp-servers
 
 ### Integration Steps
-1a. Auto: Search for extension in VS Code's Extensions: ```@mcp PLUGINNAME```
-1b. Manual: Configure the settings for an integration's MCP docs (e.g., Notion MCP server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file)
+1. Set up MCP integration in VSCode for GitHub CoPilot
+- 1a. Auto: Search for extension in VS Code's Extensions: ```@mcp PLUGINNAME```
+- 1b. Manual: Configure the settings for an integration's MCP docs (e.g., Notion MCP server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file)
 
 2. Go through the integration steps within the integration provider's platform (e.g., Notion -> Internal Integrations)
 
 ### Integration Resources
-Notion MCP Server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file
+- Notion MCP Server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file
 
 
 ## Useful Chat Commands
-load workspace context: ```@workspace```
-load context file: ```#FILENAME```
-load context folder: select paperclip in chat window
+- load workspace context: ```@workspace```
+- load context file: ```#FILENAME```
+- load context folder: select paperclip in chat window
