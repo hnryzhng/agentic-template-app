@@ -6,8 +6,17 @@ a) Planner -> Implementer -> Tester -> Reviewer -> Documenter
 
 b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submitter
 
-- Assigner (get requirements from task such as JIRA or Notion)
-- Pusher (push as feature commit or PR to code repo such as GitHub or BitBucket)
+## Agents
+- Intake (get requirements from task such as JIRA or Notion)
+- Planner
+- Implementer
+- Tester
+- Reviewer
+- Documenter
+- Submitter (push as feature commit or PR to code repo such as GitHub or BitBucket)
+- Security
+- Debugger
+- Analyst 
 
 ## Workflow
 1. Generate instruction file for the repo: ```.github/copilot-instructions.md ```
@@ -15,6 +24,11 @@ b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submi
 3. Define agents and subagents
 4. Define optional files such as skills, etc.
 5. Work on integrations via MCP servers setup (e.g., JIRA, etc.)
+
+## Additional Agents
+- Background agent: Select ```Background``` in a new chat window, then select the custom agent to run in the background for that chat session (e.g., debugger, security, analyst)
+- Parallel subagents: Type in chat ```Run subagents to do something... ```, which will run in parallel then bring the results back to the main chat session, without clouding the main thread
+
 
 ## Integrations
 Adding integrations with agents via MCP servers
