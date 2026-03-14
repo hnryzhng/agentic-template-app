@@ -9,6 +9,10 @@ handoffs:
     agent: implementer
     prompt: The validation above found failing or missing cases. Implement the smallest code changes needed to make the tests pass and preserve intended behavior.
     send: false
+  - label: Review Test Coverage
+    agent: reviewer
+    prompt: Review the generated test cases and coverage above. Assess for completeness, quality, and alignment with requirements. Identify any missing, weak, or redundant tests.
+    send: false
   - label: Document Verified Change
     agent: documenter
     prompt: Document the validated behavior above, including any usage notes, testing notes, or migration considerations that should be recorded.
