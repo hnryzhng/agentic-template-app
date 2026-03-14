@@ -1,7 +1,7 @@
 ---
 name: bug-fixer
 description: Investigates, reproduces, fixes, validates, and summarizes bugs with minimal changes and strong regression awareness.
-tools: ["agent", "read", "search", "edit", "execute/runInTerminal", "execute/createAndRunTask"]
+tools: ["agent", "read", "search", "edit", "execute"]
 agents: ["planner", "implementer", "tester", "reviewer", "documenter"]
 model: "GPT-4o"
 target: vscode

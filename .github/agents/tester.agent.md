@@ -1,7 +1,7 @@
 ---
 name: tester
 description: Designs and improves tests, validates behavior, identifies coverage gaps, and checks regressions with minimal or no production-code changes.
-tools: ["read", "search", "edit", "execute/runInTerminal", "execute/createAndRunTask"]
+tools: ["read", "search", "edit", "execute"]
 model: "GPT-4o"
 target: vscode
 handoffs:

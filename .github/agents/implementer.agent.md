@@ -1,7 +1,7 @@
 ---
 name: implementer
 description: Implements approved plans with minimal, scoped code changes and updates tests when behavior changes.
-tools: ["read", "search", 'edit/editFiles', 'read/terminalLastCommand']
+tools: ["read", "search", 'edit']
 model: "GPT-4o"
 target: vscode
 handoffs:
