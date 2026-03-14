@@ -27,7 +27,7 @@ b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submi
 
 ## Additional Agents
 - Background agent: Select ```Background``` in a new chat window, then select the custom agent to run in the background for that chat session (e.g., debugger, security, analyst)
-- Parallel subagents: Type in chat ```Run subagents to do something... ```, which will run in parallel then bring the results back to the main chat session, without clouding the main thread
+- Parallel subagents: Type in chat ```Run subagents to do something... ```, which will run in parallel then bring the results back to the main chat session, without clouding the main thread. More in the VSCode tutorial http://code.visualstudio.com/blogs/2026/02/05/multi-agent-development
 
 
 ## Integrations
