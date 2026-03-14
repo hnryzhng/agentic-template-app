@@ -20,8 +20,12 @@ b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submi
 Adding integrations with agents via MCP servers
 https://code.visualstudio.com/docs/copilot/customization/mcp-servers
 
-Steps:
-1. Search for extension in VS Code's Extensions: ```@mcp PLUGINNAME```
+### Integration Steps
+1a. Auto: Search for extension in VS Code's Extensions: ```@mcp PLUGINNAME```
+1b. Manual: Configure the settings for an integration's MCP docs (e.g., Notion MCP server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file)
+
+### Integration Resources
+Notion MCP Server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file
 
 ## Useful Chat Commands
 load workspace context: ```@workspace```
