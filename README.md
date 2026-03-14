@@ -1,5 +1,7 @@
 # Multi-Agent Example App
 
+Uses GitHub CoPilot in VSCode
+
 ## Agentic flows
 
 a) Planner -> Implementer -> Tester -> Reviewer -> Documenter
