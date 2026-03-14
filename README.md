@@ -20,4 +20,10 @@ b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submi
 Adding integrations with agents via MCP servers
 https://code.visualstudio.com/docs/copilot/customization/mcp-servers
 
-TODO
+Steps:
+1. Search for extension in VS Code's Extensions: ```@mcp PLUGINNAME```
+
+## Useful Chat Commands
+load workspace context: ```@workspace```
+load context file: ```#FILENAME```
+load context folder: select paperclip in chat window
