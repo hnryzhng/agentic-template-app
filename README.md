@@ -14,4 +14,5 @@ b) Assigner -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Pus
 2. Create agents folder: ```.github/agents/```
 3. Define agents and subagents
 4. Define optional files such as skills, etc.
+5. Work on integrations via MCP servers setup (e.g., JIRA, etc.)
 
