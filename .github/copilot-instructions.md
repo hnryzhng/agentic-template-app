@@ -1,5 +1,9 @@
 # Repository Copilot Instructions
 
+
+Context file of codebase
+
+
 ## Architecture
 - Keep UI, domain, and infrastructure concerns separated.
 - Do not introduce cross-layer imports without explicit justification.
