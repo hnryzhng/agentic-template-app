@@ -47,7 +47,8 @@ https://code.visualstudio.com/docs/copilot/customization/mcp-servers
 
 ### Integration Resources
 - Notion MCP Server: https://github.com/makenotion/notion-mcp-server?tab=readme-ov-file
-
+- Playwright MCP: https://github.com/microsoft/playwright-mcp
+- Playwright basics: https://developer.microsoft.com/blog/the-complete-playwright-end-to-end-story-tools-ai-and-real-world-workflows
 
 ## Useful Chat Commands
 - load workspace context: ```@workspace```
