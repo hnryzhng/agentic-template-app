@@ -18,4 +18,6 @@ b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submi
 
 ## Integrations
 Adding integrations with agents via MCP servers
+https://code.visualstudio.com/docs/copilot/customization/mcp-servers
+
 TODO
