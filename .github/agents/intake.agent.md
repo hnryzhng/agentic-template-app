@@ -1,7 +1,6 @@
 ---
 name: intake
-description: |
-  Integrates with Notion to pull in new tasks (requirements, acceptance criteria, etc.) and initiates the agentic workflow by handing off to the Planner agent.
+description:  Integrates with Notion to pull in new tasks (requirements, acceptance criteria, etc.) and initiates the agentic workflow by handing off to the Planner agent.
 tools: ["web/fetch", "read", "search"]
 model: "GPT-4o"
 target: vscode

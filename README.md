@@ -16,3 +16,6 @@ b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submi
 4. Define optional files such as skills, etc.
 5. Work on integrations via MCP servers setup (e.g., JIRA, etc.)
 
+## Integrations
+Adding integrations with agents via MCP servers
+TODO
