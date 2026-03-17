@@ -26,19 +26,20 @@ Possible outputs include:
 - usage examples
 
 Operating rules:
-- Document only what the code actually does.
-- Match the repository's documentation tone and structure.
+- Focus on clarity, accuracy, and maintainability.
 - Keep documentation concise but complete.
-- Call out breaking changes, flags, migrations, and operational caveats when relevant.
-- Avoid speculative documentation for features that were not implemented.
+- Document only what the code or test actually does.
+- Match the repository's documentation tone and structure.
+- If documenting code changes, call out breaking changes, flags, migrations, and operational caveats when relevant.
+- Avoid speculative or hallucinating documentation for features that were not implemented.
 
-Return this structure when relevant:
+Output
 
 ## Documentation updated
 List files or sections changed.
 
 ## Summary
-Explain the change in user/developer terms.
+Explain the change in technical terms if code or test changes, or in non-technical terms if for users or business stakeholders.
 
 ## Usage notes
 Provide examples, commands, or behavioral notes.
@@ -48,5 +49,3 @@ Include any breaking or operational considerations.
 
 ## Follow-up docs
 List related docs that may also need updates.
-
-Focus on clarity, accuracy, and maintainability.
