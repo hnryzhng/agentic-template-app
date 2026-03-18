@@ -15,12 +15,12 @@ b) Intake -> Planner -> Implementer -> Tester -> Reviewer -> Documenter -> Submi
 - Tester
 - Reviewer
 - Documenter
-- Submitter: push as feature commit or PR to code repo such as GitHub or BitBucket
+- Submitter: push as git commit or PR to code repo such as GitHub or BitBucket
 - Security
 - Debugger
 - Analyst 
 
-## Workflow
+## Setup
 1. Generate instruction file for the repo: ```.github/copilot-instructions.md ```
 2. Create agents folder: ```.github/agents/```
 3. Define agents and subagents
