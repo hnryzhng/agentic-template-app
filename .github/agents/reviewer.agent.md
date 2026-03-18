@@ -6,11 +6,11 @@ model: "GPT-4o"
 target: vscode
 handoffs:
   - label: Commit and push changes as a git commit
-    agent: committer
+    agent: submitter
     prompt: Commit and push the changes to the remote repository as a git commit
     send: false
   - label: Commit and push changes in PR
-    agent: committer
+    agent: submitter
     prompt: Commit and push the changes to the remote repository in a PR
     send: false
   - label: Fix Review Findings
