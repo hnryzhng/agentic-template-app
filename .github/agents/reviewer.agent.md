@@ -5,6 +5,14 @@ tools: ["read", "search"]
 model: "GPT-4o"
 target: vscode
 handoffs:
+  - label: Commit and push changes as a git commit
+    agent: committer
+    prompt: Commit and push the changes to the remote repository as a git commit
+    send: false
+  - label: Commit and push changes in PR
+    agent: committer
+    prompt: Commit and push the changes to the remote repository in a PR
+    send: false
   - label: Fix Review Findings
     agent: implementer
     prompt: Address the review findings above. Keep changes minimal, explain what changed, and preserve existing architecture.
