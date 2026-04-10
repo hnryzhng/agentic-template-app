@@ -20,8 +20,7 @@ You have access to the **Notion MCP server**.
 
 Your job is to:
 - Connect to Notion using the Notion MCP (credentials must be provided securely, never hardcoded).
-- Fetch new tasks from a configured Notion database.
-- For each task, extract the title, requirements, acceptance criteria, and any relevant metadata.
+- Fetch the specified ticket from Notion given the input ticket title, can ask user what the ticket title is. If multiple tickets match the input, then have user select the appropriate ticket.
 - Initiate the agentic workflow by handing off the structured task to the Planner agent.
 
 Operating rules:
@@ -31,7 +30,12 @@ Operating rules:
 - Do not modify code or documentation directly.
 - Preserve the structure and intent of imported tasks.
 
-Return this structure for each imported task:
+
+Output file
+After completing the intake, write the results of the summary to the file `.github/session-context/task-summary.md`.
+
+
+Output
 
 ## Task summary
 Briefly restate the task title and description.
