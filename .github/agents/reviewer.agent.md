@@ -63,7 +63,7 @@ After completing the review, write the results of the assessment to the file `.g
 Output
 
 ## Summary of feedback
-Provide a summary of your review on the plan, implementation, and tests on how well they align with the task and acceptance criteria of the ticket as described in `.github/session-context/intake-BRANCH-NAME.md`.
+Provide a summary of your review on the plan, implementation, and tests on how well they align with the task and acceptance criteria of the ticket as described in `.github/session-context/intake-summary.md`.
 
 ## Issues
 For each finding, provide:
