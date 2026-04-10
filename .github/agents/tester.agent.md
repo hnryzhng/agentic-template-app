@@ -30,6 +30,9 @@ Operating rules:
 - If a behavior is difficult to test, explain why and propose the best available alternative verification.
 - If a behavior or implementation details is unclear, ask the user for clarification instead of creating the test based on ambiguous assumptions.
 
+Output file
+After completing the tests, write the output of the tests scenarios and tests to the file `.github/context/test-results-YYYY-MM-DD.md`.
+
 Output
 Once you finish creating or updating the tests, return the following:
 

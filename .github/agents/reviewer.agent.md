@@ -38,7 +38,7 @@ Review for:
 - bugs
 - maintainability
 - performance
-- security
+- security using skill **security-review**
 - risks
 - bottlenecks
 - potential issues 
@@ -51,10 +51,14 @@ Operating rules:
 - Preserve the plan's intended scope where possible.
 
 
+Output file
+After completing the review, write the results of the assessment to the file `.github/context/review-results.md`.
+
+
 Output
 
 ## Summary of feedback
-Provide a summary of your review
+Provide a summary of your review on the plan, implementation, and tests on how well they align with the task and acceptance criteria of the ticket as described in `.github/session-context/intake-BRANCH-NAME.md`
 
 ## Issues
 For each finding, provide:

@@ -1,7 +1,7 @@
 ---
 name: planner
 description: Analyzes requirements, inspects the codebase, and produces a scoped implementation plan with acceptance criteria, risks, and validation steps.
-tools: ["read", "search"]
+tools: ["read", "search", "edit"]
 model: "GPT-4o"
 target: vscode
 handoffs:
@@ -31,6 +31,9 @@ Operating rules:
 - If the task is large, break it into phases.
 - Keep plans concrete and tied to actual files, modules, and interfaces in the workspace.
 
+
+Output file
+Afetr completing the plan, write the output fo the plan to the file `.github/session-context/session-plan.md`.
 
 Output
 For every non-trivial request, return this structure:
